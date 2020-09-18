@@ -1,2 +1,2 @@
-# picoramsoc
-An SoC for the PicoRV32 running completely from RAM
+# PicoRAMSoC
+An SoC for the [PicoRV32](https://github.com/cliffordwolf/picorv32) running completely from RAM, based on the [PicoSoC](https://github.com/cliffordwolf/picorv32/tree/master/picosoc). The firmware is loaded via the ```readmemh``` verilog system task directly in to the SRAM. It's name is expected to be ```firmware.hex```. It uses the PicoSoC ```simpleuart.v``` UART controller for communication.
